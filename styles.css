@@ -30,27 +30,47 @@ nav a {
     padding-right: 10px;
 }
 
-main {
+.home-main-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.home-main-container .home-content {
+    width: 70%
+}
+
+.home-main-container .home-picture {
+    width: 30%
+}
+
+.home-main-container .home-picture img {
+    width: 100%
+}
+
+.gallery-main-container {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 20px;
 }
 
-main .image-box {
+.gallery-main-container .image-box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-main .image-box .image-col {
+.gallery-main-container .image-box .image-col {
     display: flex;
     flex-direction: column;
     width: 32.5%;
 }
 
-main .image-box .image-col img {
+.gallery-main-container .image-box .image-col img {
     width: 100%;
     padding-bottom: 15px;
     border-radius: 5px;
