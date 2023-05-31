@@ -93,11 +93,11 @@ footer {
 
 @media only screen and (max-width: 769px) {
 
-    main .image-box {
+    .gallery-main-container .image-box {
         flex-direction: column;
     }
 
-    main .image-box .image-col {
+    .gallery-main-container .image-box .image-col {
         width: 100%;
     }
     
