@@ -15,7 +15,7 @@ header {
 }
 
 nav {
-    background-color: rgb(209, 146, 209);
+    background-color: rgba(241, 196, 190, 0.733);
     margin-top: 15px;
     margin-bottom: 15px;
     padding-top: 10px;
@@ -79,7 +79,7 @@ nav a {
 
 footer {
     margin-top: auto;
-    background-color: grey;
+    background-color: rgb(195,236,240);
     height: 40px;
     width: 100%;
 }
