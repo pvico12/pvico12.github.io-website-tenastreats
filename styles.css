@@ -39,15 +39,17 @@ nav a {
 }
 
 .home-main-container .home-content {
-    width: 70%
+    padding-right: 30px;
+    width: 285px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .home-main-container .home-picture {
-    width: 30%
+    width: 285px;
 }
 
 .home-main-container .home-picture img {
-    width: 100%
+    width: 100%;
 }
 
 .gallery-main-container {
